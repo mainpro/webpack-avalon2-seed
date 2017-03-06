@@ -1,0 +1,31 @@
+//css有两种实现方式， 第一种直接写在style中
+.aa {
+  .active {
+    background: blueviolet;
+  }
+
+  .panel {
+    margin: 2em;
+    padding:1em;
+    min-height: 200px;
+    border: 1px solid #666;
+    background: #0e97e2;
+  }
+
+  .grid table {
+    border: 1px solid #000;
+    width: 500px;
+    border-collapse: collapse;
+  }
+
+  .grid button {
+    width: 400px;
+    background: orange;
+  }
+
+  .grid table th,
+  .grid table td {
+    border: 1px solid #000;
+    padding: 2px 5px;
+  }
+}

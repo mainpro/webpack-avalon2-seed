@@ -1,0 +1,8 @@
+<div class="pager">
+    <ul>
+        <li :for="el in @pages"
+            :class="[ el == @currentPage && 'active' ]">
+            <a href="javascript:void(0)" :click="@gotoPage(el, $event)">{{el}}</a>
+        </li>
+    </ul>
+</div>
